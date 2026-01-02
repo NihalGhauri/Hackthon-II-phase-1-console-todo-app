@@ -10,15 +10,15 @@ def display_menu() -> None:
     """
     Displays the main menu options to the user.
     """
-    print("\n===> Console Todo App <===")
-    print("----------------------------")
+    print("\n====> Console Todo App <====")
+    print("-----------------------------")
     print("1. Add task")
     print("2. List tasks")
     print("3. Update task")
     print("4. Delete task")
     print("5. Complete task")
     print("6. Exit")
-    print("----------------------------")
+    print("-----------------------------")
 
 
 def get_user_choice() -> str:
