@@ -10,7 +10,7 @@ def display_menu() -> None:
     """
     Displays the main menu options to the user.
     """
-    print("\n===> Console Todo App <====")
+    print("\n===> Console Todo App <===")
     print("-----------------------------")
     print("1. Add task")
     print("2. List tasks")
