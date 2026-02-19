@@ -66,7 +66,7 @@ def list_tasks_ui(task_manager: TaskManager) -> None:
     Args:
         task_manager: The TaskManager instance to use for operations
     """
-    print("\n--- Task List ---")
+    print("\n--- Task List ----")
     tasks = task_manager.list_tasks()
 
     if not tasks:
